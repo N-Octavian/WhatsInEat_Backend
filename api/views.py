@@ -9,7 +9,7 @@ import openai
 
 def gpt3(stext):
     stext = f'Full description of {stext}?'
-    openai.api_key = 'INSERT API KEY HERE'
+    openai.api_key = 'PUT GPT3 API KEY HERE'
     gpt_response = openai.Completion.create(
         engine='text-curie-001',
         prompt=stext,
