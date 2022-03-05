@@ -21,3 +21,6 @@ runtime_config:
 
 env_variables:
     APPENGINE_URL: https://WhatsInEat.uc.r.appspot.com
+
+manual_scaling:
+  instances: 1
